@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  optpro1:
+    image: optpro1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
